@@ -4,12 +4,11 @@
     Author     : Anonymous
 --%>
 
-<%@include file="assets/header.jsp" %> 
-<%@include file="assets/nav.jsp" %>
+<%@include file="entity/header.jsp" %> 
+<%@include file="entity/nav.jsp" %>
 <div class="container" >  
     <div class="row slider" id="home">
-        <%@include file="assets/slider.jsp" %>
+        <%@include file="entity/slider.jsp" %>
     </div>    
 </div>
-</body>
-</html>
+<%@include file="entity/footer.jsp" %>
