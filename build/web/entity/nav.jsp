@@ -1,5 +1,8 @@
-<body>
+<body onload="myFunction()" style="margin:0;">
 
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
         <nav  class="navbar navbar-fixed-top navbar-inverse" role="navigation" style="z-index:100;">
             <div class="container">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
